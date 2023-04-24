@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Gil Senecaut - Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Portfolio</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="projects.html">Projects</a></li>
+							<li class="active"><a href="masters_thesis_description.html">Master's Thesis Description</a></li>
+							<li><a href="about_me_&_contact_information.html">About Me &nbsp; & &nbsp; Contact Information</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/gil-teixeira-de-sousa-senecaut/" target="_blank"  class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
+							<li><a href="https://github.com/gsenecaut/Portfolio_Projects" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h2 style="font-size: 2.5em;">Deep Learning Approach in <br/> Sea Surface Height Forecasting</h2>
+									<p>A thesis on the use of machine learning for sea surface height (SSH) forecasting <br/>
+										and its applicability in coastal flood advisory and risk assessment.</p>
+								</header>
+								<p><span class="image right"><img src="images/EastVisayas.jpg" alt="" height="270"/></span>The Philippines is one of the most natural disaster-prone countries in the world, and the most problematic are the year-round typhoons that cause devastating landslides and flooding. Arguably the most exposed region due to its positioning and typical typhoon pathing is the Eastern Visayas region. According to a report from the Filipino government website, 48% (€850 million) of the total damage cost and losses resulting from the Philippines most destructive typhoon in recent decades, Typhoon Yolanda, were incurred in Eastern Visayas. This nation’s, and consequently this region’s, vulnerability is expected to worsen substantially over the coming decades as a result of global rising temperatures. This is particularly catastrophic for a country ranking 104th globally in terms of the Notre Dame Global Adaptation Initiative (ND-GAIN) index which quantifies the coastal and energy infrastructure's exposure to climate-related disasters. There is no early flood warning system in the Philippines and local governments are having to rely on help from abroad to set up early flood warning systems that are not yet fully developed nor in use.</p>
+								<p>This thesis explores a machine learning approach to sea surface height forecasting with a spatial component that spans a portion of the Philippines that covers Eastern Visayas, a location chosen for the aforementioned reasons. Satellite data covering the year 2017 on the relevant atmospheric and marine variables from the region is collected for training and testing several neural networks’ ability to forecast the last 4 weeks of sea surface height. The proposed deep learning models for this consist of multiple variations of Long Short-Term Memory networks (LSTMs) and Gated Recurrent Unit networks (GRUs), which are both types of Recurrent Neural Networks (RNNs), as well as one-dimensional Convolutional Neural Networks (CNNs). Their performance is compared with the use of multiple Key Performance Indicators (KPIs) commonly used with machine learning.</p>
+								<p>The inclusion of an attention layer to aid with the spatial component of the dataset is also tested to evaluate its impact on the overall performance of the model. The structural complexity of the neural network that produces the best performing model is increased to see if there is further improvement to an extent that justifies the sacrifice in efficiency of the model. Results show that a bidirectional GRU network of high complexity produces the best performing model with the mean squared error (MSE) of its forecast being 0.241. Having singled out the optimal parameters that result in the best performing network, the thesis is brought to a close with some discussion on a few of the important improvements and next steps required to take to build on these results and develop an early warning system that could be applicable and valuable in real-world scenarios. </p>
+								<br/>
+								<ul class="actions special">
+									<li><a href="https://github.com/gsenecaut/Portfolio_Projects/blob/main/Master's%20Thesis%20Jupyter%20Notebook.ipynb" target="_blank" class="button large" style="font-size: 1.2em;">View Project</a></li>
+								</ul>
+							</section>
+
+					</div>
+
+				<div id="emptyspace">
+					<ul></ul><br />
+				</div>
+				
+				<div id="footer" style="background-color: transparent; margin-left: 46.3%;">
+					
+					
+					<ul class="actions">
+						<li>
+							<a href="#nav" class="button icon solid solo fa-arrow-up scrolly" style="margin-left: 18px;">Back to Top</a>
+							<p style="font-size: 1.1em; font-weight: bold;">Back to Top</p>
+						</li>
+					</ul>
+					 
+				</div> 
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
