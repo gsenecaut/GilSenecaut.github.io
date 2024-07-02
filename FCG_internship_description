@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Gil Senecaut - Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="projects.html" class="logo">Portfolio</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="projects.html">Projects</a></li>
+							<li><a href="masters_thesis_description.html">Master's Thesis Description</a></li>
+							<li class="active"><a href="FCG_internship_description.html">FCG Internship Description</a></li>
+							<li><a href="about_me_&_contact_information.html">About Me &nbsp; & &nbsp; Contact Information</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/gil-teixeira-de-sousa-senecaut/" target="_blank"  class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
+							<li><a href="https://github.com/gsenecaut/Portfolio_Projects" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h2 style="font-size: 2.5em;">FCG Internship <br/> Database Development & Analysis </h2>
+									<h2 style="font-size: 2.5em; margin-bottom: 40px;">FCG Internship <br/> Database Development & Analysis </h2>
+									<p>A year-long internship at Ageas where I focused on the development of <br/>
+										a robust FCG database and dynamic Power BI report.</p>
+								</header>
+								<p><span class="image right"><img src="images/Ageas.jpg" alt="" height="270"/></span>Free capital generation (FCG) refers to an insurance company's ability to generate excess capital beyond its regulatory and operational requirements. This measure is a key indicator of the insurer's financial health and resilience, highlighting its capacity to withstand adverse events, invest in growth opportunities, and return value to shareholders. During my internship at Ageas, a global insurance group that operates in selected countries in Europe and Asia, I worked in the FCG team on a comprehensive initiative focused on developing a robust database for historical FCG data and transitioning from static to dynamic reporting systems.</p>
+								<h2 style="font-size: 1.5em;">FCG Database - Initial Ambition and Challenges</h2>
+								<p>At the start of my internship, the plan was for me to set up a dedicated FCG database managed by the FCG team. After a thorough process of extensive data collection, organization, cleaning, and validation, I used Microsoft SQL Management Studio to build and house the database. I then began developing an automated import process that could handle different scenarios, such as changes to the input layout, using Power Apps for the user interface and Power Automate for the workflow. During the development of this ETL pipeline, we had to request from the Data Office a gateway connection that, due to potential security risks, could not be granted in the end. Consequently, we had to pivot our approach. This led to a collaboration with the Data Office to comply with Group IT policies and governance, where instead the database would be housed within the Data Office’s platform.</p>
+								<h2 style="font-size: 1.5em;">Transition to Dynamic Reporting with Power BI</h2>
+								<p>
+									The project also aimed to transition from static PowerPoint reports to dynamic Power BI reports, which necessitated strong collaboration and a continuous feedback loop among the following teams with their respective roles.
+									<ul style="margin-left: 30px;">
+										<li><b><em>Data Office:</em></b> Apply business logic to deliver required data views through a live connection to the data platform.</li>
+										<li><b><em>ABC Team:</em></b> Take the existing PowerPoint version of the FCG report and reproduce it in Power BI with advanced visualizations and dynamic functionalities.</li>
+										<li><b><em>FCG Team:</em></b> Assist the DO and ABC teams by providing expertise on the nuances that exist behind FCG data, as well as clear specification of business logic and project requirements.</li>
+									</ul>
+									Initially, I worked independently on the project's technical aspects. However, once collaboration between the three teams began, I became the proxy for the FCG team. I ensured that all teams were well-aligned, and I produced comprehensive specification documents detailing the relevant business logic and various requirements.
+								</p>
+								<h2 style="font-size: 1.5em;">Project Status and Outcomes</h2>
+								<p>
+									The FCG Project is an ambitious endeavour involving multiple phases, with certain steps requiring close collaboration between the Data Office and Power BI specialists from the ABC team. Shortly before my departure, we successfully completed Phase I for the Data Office. The FCG database is now fully integrated within the Ageas data platform. This integration ensures:
+									<ul style="margin-left: 30px;">
+										<li>A robust audit trail for meticulous tracking and compliance</li>
+										<li>A structured and automated process for ingesting and storing FCG data according to Ageas IT principles.</li>
+										<li>Quick and easy access to historical FCG data via SQL Management Studio</li>
+									</ul>
+									The development of the FCG Power BI report is progressing smoothly. After completing one cycle of User Acceptance Testing (UAT) and incorporating the feedback, a second UAT cycle is now in progress. Both teams are now well-equipped to continue their work and collaborate semi-autonomously from the FCG team, ensuring that my departure does not negatively impact the project.
+								</p>
+								<h2 style="font-size: 1.5em;">Conclusion</h2>
+								<p>My internship experience with the FCG Project was incredibly enriching. It not only provided me with hands-on experience in database management and dynamic reporting but also taught me the importance of teamwork, communication, and adaptability in the face of challenges.<br/> 
+									Thank you for taking the time to read about my journey working on this FCG project. Feel free to explore the rest of my portfolio to learn more about my skills and experiences.
+								</p>
+								<br/>
+							</section>
+
+					</div>
+
+				<div id="emptyspace">
+					<ul></ul><br />
+				</div>
+				
+				<div id="footer" style="background-color: transparent; margin-left: 46.3%;">
+					
+					
+					<ul class="actions">
+						<li>
+							<a href="#nav" class="button icon solid solo fa-arrow-up scrolly" style="margin-left: 18px;">Back to Top</a>
+							<p style="font-size: 1.1em; font-weight: bold;">Back to Top</p>
+						</li>
+					</ul>
+					 
+				</div> 
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
